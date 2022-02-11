@@ -36,11 +36,12 @@
     color: #5C6D7D;
     margin-bottom: 34px;
   }
+
+  &:last-child{
+    border-bottom: none;
+  }
 }
 
-.review + .review{
-  border-bottom: none;
-}
 
 
 @media(max-width: 840px){

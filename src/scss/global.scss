@@ -18,6 +18,11 @@ body{
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .body--disable{
@@ -33,6 +38,7 @@ body{
 
 .main{
   margin-bottom: 40px;
+  flex-grow: 1;
   padding-top: 30px;
 
   background: linear-gradient(180deg, #219653 0%, #FFFFFF 720px);
@@ -43,6 +49,7 @@ body{
     background-color: #fff;
   }
 }
+
 
 @media(max-width: 1160px){
   .main{
